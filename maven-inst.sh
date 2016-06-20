@@ -13,6 +13,7 @@
 # com.google.gdata:com.google.gdata.core:jar:1.0, 
 # apache-beanutils:commons-beanutils:jar:1.7.0, 
 # choco:choco-solver:jar:2.1.4, 
+# choco:choco-Choco:jar:2.1.4,
 # com.googlecode.sardine:sardine:jar:314:
 # 
 # Make this file executable by running
