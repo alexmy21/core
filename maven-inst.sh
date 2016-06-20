@@ -33,4 +33,5 @@ mvn install:install-file -Dfile=lib/com.google.gdata.core-1.0.jar -DgroupId=com.
 mvn install:install-file -Dfile=lib/com.google.gdata.spreadsheet-3.0.jar -DgroupId=com.google.gdata -DartifactId=com.google.gdata.spreadsheet -Dversion=3.0 -Dpackaging=jar
 mvn install:install-file -Dfile=lib/commons-beanutils-1.7.0.jar -DgroupId=apache-beanutils -DartifactId=commons-beanutils -Dversion=1.7.0 -Dpackaging=jar
 mvn install:install-file -Dfile=lib/choco-solver-2.1.4.jar -DgroupId=choco -DartifactId=choco-solver -Dversion=2.1.4 -Dpackaging=jar
+mvn install:install-file -Dfile=lib/choco-Choco-2.1.4.jar -DgroupId=choco -DartifactId=choco-Choco -Dversion=2.1.4 -Dpackaging=jar
 mvn install:install-file -Dfile=lib/sardine-314.jar -DgroupId=com.googlecode.sardine -DartifactId=sardine -Dversion=314 -Dpackaging=jar
