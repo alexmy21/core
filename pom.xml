@@ -49,7 +49,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
             </snapshots>
             <url>http://bits.netbeans.org/maven2</url>
         </repository>
-        
+<!--        
         <repository>
             <id>neo4j-release-repository</id>
             <name>Neo4j Maven 2 release repository</name>
@@ -60,7 +60,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
             <snapshots>
                 <enabled>false</enabled>
             </snapshots>
-        </repository>
+        </repository>-->
         <repository>
             <id>neo4j-snapshot-repository</id>
             <name>Neo4j Maven 2 snapshot repository</name>
@@ -132,8 +132,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
             <version>0.9.30</version>
         </dependency>
 
-        <!-- Netbeans -->
-        
+        <!-- Netbeans -->        
         <dependency>
             <groupId>org.netbeans.api</groupId>
             <artifactId>org-netbeans-api-visual</artifactId>
@@ -167,8 +166,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
             <version>3.4.7</version>
         </dependency>
 
-        <!-- DB4O -->
-        
+        <!-- DB4O -->        
         <dependency>
             <groupId>com.db4o</groupId>
             <artifactId>db4o-full-java5</artifactId>
@@ -200,61 +198,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
             <scope>test</scope>
         </dependency>
         
-        <!-- Database drivers -->
-        
-        <dependency>
-            <groupId>mysql</groupId>
-            <artifactId>mysql-connector-java</artifactId>
-            <version>5.1.17</version>
-        </dependency>
-        <dependency>
-            <groupId>com.datastax.cassandra</groupId>
-            <artifactId>cassandra-driver-core</artifactId>
-            <version>2.0.3</version>
-        </dependency>
-        <dependency>
-            <groupId>org.mongodb</groupId>
-            <artifactId>mongo-java-driver</artifactId>
-            <version>2.7.3</version>
-            <type>jar</type>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.data</groupId>
-            <artifactId>spring-data-redis</artifactId>
-            <version>1.0.3.RELEASE</version>
-            <type>jar</type>
-        </dependency>
-        <dependency>
-            <groupId>org.neo4j</groupId>
-            <artifactId>neo4j</artifactId>
-            <version>1.9.2</version>
-        </dependency>
-        <dependency>
-            <groupId>org.neo4j</groupId>
-            <artifactId>neo4j-rest-graphdb</artifactId>
-            <version>1.9.3-SNAPSHOT</version>
-            <type>jar</type>
-        </dependency>
-        <dependency>
-            <groupId>org.redisson</groupId>
-            <artifactId>redisson</artifactId>
-            <version>1.1.5</version>
-        </dependency>
-        
-        <!---===================================================-->
-
-        <dependency>
-            <groupId>com.google.gdata</groupId>
-            <artifactId>com.google.gdata.spreadsheet</artifactId>
-            <version>3.0</version>
-            <type>jar</type>
-        </dependency>
-        <dependency>
-            <groupId>com.google.gdata</groupId>
-            <artifactId>com.google.gdata.core</artifactId>
-            <version>1.0</version>
-            <type>jar</type>
-        </dependency>
         <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-math3</artifactId>
@@ -291,41 +234,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
             <version>2.1</version>
             <type>jar</type>
         </dependency>
-        <!-- Choco -->
-        <dependency>
-            <groupId>choco</groupId>
-            <artifactId>choco-solver</artifactId>
-            <version>2.1.4</version>
-        </dependency>
-        <dependency>
-            <groupId>com.google.code.gson</groupId>
-            <artifactId>gson</artifactId>
-            <version>2.2.2</version>
-            <type>jar</type>
-        </dependency>
-        <dependency>
-            <groupId>com.googlecode.sardine</groupId>
-            <artifactId>sardine</artifactId>
-            <version>314</version>
-        </dependency>
-        <dependency>
-            <groupId>com.rabbitmq</groupId>
-            <artifactId>amqp-client</artifactId>
-            <version>2.8.7</version>
-        </dependency>
-        <dependency>
-            <groupId>net.htmlparser.jericho</groupId>
-            <artifactId>jericho-html</artifactId>
-            <version>3.3</version>
-        </dependency>
-        
-        <dependency>
-            <groupId>org.apache.lucene</groupId>
-            <artifactId>lucene-core</artifactId>
-            <version>3.5.0</version>
-        </dependency>
-        
-        <!-- -->
         
         <dependency>
             <groupId>org.apache.httpcomponents</groupId>
@@ -336,6 +244,12 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
             <groupId>org.apache.httpcomponents</groupId>
             <artifactId>httpcore</artifactId>
             <version>4.3</version>
+        </dependency>
+        <dependency>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+            <version>2.8.5</version>
+            <type>jar</type>
         </dependency>
     </dependencies>
     <build>
