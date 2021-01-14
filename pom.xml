@@ -216,7 +216,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
         <dependency>
             <groupId>org.apache.poi</groupId>
             <artifactId>poi</artifactId>
-            <version>3.7</version>
+            <version>3.17</version>
         </dependency>
         <dependency>
             <groupId>redis.clients</groupId>
